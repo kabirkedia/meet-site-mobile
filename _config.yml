@@ -1,0 +1,12 @@
+# Site settings
+email:
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "/myreponame"
+url: https://kabirkedia.github.io/
+title: Wave Club
+description: Welcome to Waveclub!!
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
