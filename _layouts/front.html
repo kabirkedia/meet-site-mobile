@@ -1,16 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script type="text/javascript">
-  $(window).on('load resize',
-  function redirect(){
-      if($(window).width() > 400){
-          window.location = "https://kabirkedia.github.io/meet-site/"
-      }
-  });
-</script>
 {% include head.html %}
-<body id="page-top" onload="setTimeout('redirect()', 300)">
+<body id="page-top" >
+  {% include redirect.html %}
   {% include nav.html %}
   {% include header.html %}
   {% include call-to-action.html %}
