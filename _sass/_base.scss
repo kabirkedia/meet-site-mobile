@@ -231,7 +231,7 @@ header {
   }
   .spinny-wrapper{
     margin-top: 30px;
-    padding-left: 50px;
+    padding-left: 60px;
     display: flex;
     justify-content: flex-start;
     position: absolute;
@@ -268,7 +268,7 @@ header {
     animation-delay: 3s; 
     color: #FF0057;
     text-align: center;
-    padding-left: -20px;
+    padding-left: 20px;
 }
 .spinny-words span:nth-child(3) { 
     animation-delay: 6s; 
@@ -297,9 +297,9 @@ header {
       font:normal normal 300 2em 'Work Sans';
       text-decoration:none;	
       font-weight: bold;
-      font-size: 18px;
+      font-size: 19px;
       align-items: center;
-      width: 207px;
+      width: 270px;
       
       color:rgba(255,255,255,1);
       background-color:rgb(1, 102, 255);
